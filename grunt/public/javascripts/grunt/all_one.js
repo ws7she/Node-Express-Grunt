@@ -1,0 +1,1 @@
+new admin("dasdpa[sdc]","dasdds","dsachdasho");var admin=function(a,b,c){alert(a)};alert("f.js"),alert("c.js"),alert("a"),alert("b");

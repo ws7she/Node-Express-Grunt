@@ -1,0 +1,17 @@
+extends layout
+
+block index
+  h1= title
+  p Welcome to #{title}
+  br
+  input(type="checkbox" name="basejs" value="base.js")
+  span base.js 基础
+  br
+  input(type="checkbox" name="expandjs" value="a.js")
+  span a.js 拓展
+  input(type="checkbox" name="expandjs" value="b.js")
+  span b.js
+  br
+  input#upload(type="submit" value="打包")
+  br
+  textarea#text(style="width:500px")

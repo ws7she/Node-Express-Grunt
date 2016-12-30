@@ -1,0 +1,4 @@
+{
+    "basefile": "grunt/base/",
+    "expandfile": "grunt/expand/"
+}
