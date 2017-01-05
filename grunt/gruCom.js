@@ -1,6 +1,5 @@
 var grunt = require('grunt');
 var maindata = require('./data/pack');
-// var fs = require('fs');
 process.on('message', function (m) {
     maindata.pack = m;
     grunt.cli({
@@ -8,11 +7,3 @@ process.on('message', function (m) {
     });
 
 });
-    // var h = fs.readFileSync("grunt/lib/all_one.js");
-    // // 
-
-    //  fs.readFileSync("grunt/lib/all_one.js", function() {
-    //     process.send(h.toString());
-    //  })
-
-

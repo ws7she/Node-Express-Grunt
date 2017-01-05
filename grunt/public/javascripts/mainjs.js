@@ -46,7 +46,7 @@ $(function () {
             dataType: 'text',
             success: function (data) {
                 console.log(data)
-                setTimeout(ahhh,1000)
+                setTimeout(ahhh,2000)
             },
             error: function (data) {
                 console.log("失败！")

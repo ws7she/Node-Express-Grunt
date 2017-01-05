@@ -2,8 +2,6 @@ var bodyParser = require('body-parser');
 // 引入子进程的require
 var child_process = require('child_process');
 var maindata = require('./data/pack');
-var pets = require('./data/haha')
-// var fs = require('fs');
 
 module.exports = function (app) {
     app.use(bodyParser.json());

@@ -1,1 +1,0 @@
-alert("base.js"),alert("f.js"),alert("c.js"),alert("a");
